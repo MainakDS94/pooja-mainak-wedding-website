@@ -257,7 +257,7 @@ function alert_markup(alert_type, msg) {
     return '<div class="alert alert-' + alert_type + '" role="alert">' + msg + '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span>&times;</span></button></div>';
 }
 
-// MD5 Encoding
+/*// MD5 Encoding
 var MD5 = function (string) {
 
     function RotateLeft(lValue, iShiftBits) {
@@ -474,4 +474,4 @@ var MD5 = function (string) {
     var temp = WordToHex(a) + WordToHex(b) + WordToHex(c) + WordToHex(d);
 
     return temp.toLowerCase();
-};
+};*/
