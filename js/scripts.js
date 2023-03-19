@@ -215,7 +215,7 @@ $(document).ready(function () {
         $('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
 
     
-            $.post('https://script.google.com/macros/s/AKfycbyW6xjTiGU2qWQagIcQyLS4xtGyl2CwPp8vA-XCaBS2kNhYRaTiPfxS6lgrysvuMHSw/exec', data)
+            $.get('https://script.google.com/macros/s/AKfycbyW6xjTiGU2qWQagIcQyLS4xtGyl2CwPp8vA-XCaBS2kNhYRaTiPfxS6lgrysvuMHSw/exec', data)
                 .done(function (data) {
                     console.log(data);
                     if (data.result === "error") {
